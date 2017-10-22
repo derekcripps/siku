@@ -25,7 +25,7 @@ SECRET_KEY = 'xyd1cx2k=xei$cl+jlvngv-&x^e&#0jsrk5jm8@^z=tgu!ul4o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'siku_app.urls'
+ROOT_URLCONF = 'siku_proj.urls'
 
 TEMPLATES = [
     {
